@@ -1,0 +1,11 @@
+.message {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #2577c4;
+  width: 85vw;
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,99 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #2577c4;
+}
+
+.joinInnerContainer {
+  padding: 30px;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 15%;
+}
+
+.joinInput {
+  border-radius: 25px;
+  padding: 15px 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.heading {
+  color: black;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  cursor: pointer;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2577c4;
+  padding: 20px;
+  border-radius: 25px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 230px) {
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+  .joinInput {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .joinInnerContainer {
+    height: 65%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .joinInnerContainer {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 733px) {
+  .joinInnerContainer {
+    margin-bottom: 15%;
+    width: 50%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
+
+.button:hover {
+  background: #0e649c;
+}

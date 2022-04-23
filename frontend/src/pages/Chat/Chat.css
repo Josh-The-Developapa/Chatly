@@ -1,0 +1,45 @@
+.ipt {
+  position: relative;
+  font-size: larger;
+  height: 40px;
+  width: 50vw;
+}
+
+form {
+  margin-bottom: 1550px;
+}
+
+.btn {
+  position: absolute;
+  font-size: larger;
+  padding: 5px;
+  margin-top: 0;
+  background-color: #2577c4;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.oC {
+  border: 1px solid black;
+  height: 500px;
+  width: 95vw;
+  overflow-y: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.oOc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
